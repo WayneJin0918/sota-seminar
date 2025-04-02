@@ -31,16 +31,19 @@ export function getCategoryMetadata(category: string) {
 export const SocialLinks = [
   { href: "/rss.xml", icon: "tabler:rss", label: "RSS" },
   {
-    href: "https://twitter.com/",
-    icon: "tabler:brand-twitter",
-    label: "Twitter",
+    href: "https://space.bilibili.com/3546880176818722",
+    icon: "tabler:brand-bilibili",
+    label: "Bilibili",
   },
+];
+
+export const headerLinks = [
   {
-    href: "https://github.com/",
+    href: "https://github.com/WayneJin0918",
     icon: "tabler:brand-github",
     label: "GitHub",
   },
-];
+]
 
 // Search Page Metadata, src/pages/search.astro
 export const SEARCH_PAGE_TITLE = `${SITE_TITLE} - Site Search`;
