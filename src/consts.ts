@@ -2,19 +2,19 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Base Page Metadata, src/layouts/BaseLayout.astro
-export const BRAND_NAME = "SOTA’s Seminar";
-export const SITE_TITLE = "SOTA’s Seminar";
-export const SITE_DESCRIPTION = "SOTA’s Seminar";
+export const BRAND_NAME = "SOTA's Seminar";
+export const SITE_TITLE = "SOTA's Seminar";
+export const SITE_DESCRIPTION = "SOTA's Seminar";
 
 // Tags Page Metadata, src/pages/tags/index.astro
-export const Tags_TITLE = "SOTA’s Seminar - All Tags";
+export const Tags_TITLE = "SOTA's Seminar - All Tags";
 export const Tags_DESCRIPTION =
-  "SOTA’s Seminar - All tags and the count of articles related to each tag";
+  "SOTA's Seminar - All tags and the count of articles related to each tag";
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
   return {
-    title: `All articles on '${tag}' tag in SOTA’s Seminar`,
+    title: `All articles on '${tag}' tag in SOTA's Seminar`,
     description: `Explore articles about ${tag} for different perspectives and in-depth analysis.`,
   };
 }
@@ -22,8 +22,8 @@ export function getTagMetadata(tag: string) {
 // Category Page Metadata, src/pages/category/[category]/[page].astro
 export function getCategoryMetadata(category: string) {
   return {
-    title: `All articles in '${category}' category in SOTA’s Seminar`,
-    description: `Browse all articles under the ${category} category in SOTA’s Seminar`,
+    title: `All articles in '${category}' category in SOTA's Seminar`,
+    description: `Browse all articles under the ${category} category in SOTA's Seminar`,
   };
 }
 
